@@ -28,3 +28,8 @@ spec:
             requests:
               memory: "254mi"
               cpu: "250m"
+      strategy:
+        type: RollingUpdate
+        rollingUpdate:
+          maxSurge: 1
+          maxUnavailable: 1
