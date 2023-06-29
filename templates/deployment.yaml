@@ -21,15 +21,3 @@ spec:
           envFrom:
             - secretRef:
                 name: {{ .Values.app.name }}-env-secret
-          resources:
-            limits:
-              memory: "512mi"
-              cpu: "500m"
-            requests:
-              memory: "254mi"
-              cpu: "250m"
-      strategy:
-        type: RollingUpdate
-        rollingUpdate:
-          maxSurge: 1
-          maxUnavailable: 1
