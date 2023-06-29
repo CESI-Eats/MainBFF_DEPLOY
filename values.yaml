@@ -1,0 +1,10 @@
+app:
+  name: main-bff
+  namespace: cesi-eats
+  image:
+    repository: ghcr.io/cesi-eats/main_bff
+    tag: latest
+
+dependencies:
+  lapinou:
+    uri: amqp://identity-service.cesi-eats.svc.cluster.local:5672

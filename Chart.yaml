@@ -1,0 +1,7 @@
+apiVersion: v2
+name: main-bff-chart
+version: 1.0.0
+description: Helm chart to deploy Main BFF
+maintainers:
+  - name: Guillaume Miot
+    email: guillaume.miot@viacesi.fr
