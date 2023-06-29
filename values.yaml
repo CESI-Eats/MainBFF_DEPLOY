@@ -7,4 +7,4 @@ app:
 
 dependencies:
   lapinou:
-    uri: amqp://identity-service.cesi-eats.svc.cluster.local:5672
+    uri: amqp://rabbitmq-service.cesi-eats.svc.cluster.local:5672
