@@ -23,8 +23,8 @@ spec:
                 name: {{ .Values.app.name }}-env-secret
           resources:
             limits:
-              memory: "254Mi"
+              memory: "512Mi"
               cpu: "500m"
             requests:
-              memory: "128Mi"
+              memory: "254mi"
               cpu: "250m"
